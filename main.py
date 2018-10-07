@@ -1,3 +1,4 @@
+#zadanie 1
 #wojewodztwo = 'slaskie'
 #miasto = 'BYTOM'
 #czynsz = 600
@@ -8,6 +9,7 @@
 #print('po podwyzce bedzie')
 #print(czynsz + 300)
 
+#zadanie 2
 #perfumy = ['oriflame' , 'avon']
 #cena = [100 , 50]
 
@@ -22,20 +24,20 @@
 #    print( "idx: " + str(idx) + ': ' + perfumy[idx])
 #    print(perfumy[idx] + 'ma cene ' + str(cena[idx]))
 
+#Zadanie 3
+#def print_dict(d):
+#    for key, value in d.iteritems():
+#        print("{0}:{1}".format(key,value))
 
-def print_dict(d):
-    for key, value in d.iteritems():
-        print("{0}:{1}".format(key,value))
+#if __name__ == "__main__":
+#    zwierzeta = {'ssaki': 'pies',
+#             'gady': 'waz',
+#             'ptaki': 'golab'}
 
-if __name__ == "__main__":
-    zwierzeta = {'ssaki': 'pies',
-             'gady': 'waz',
-             'ptaki': 'golab'}
+#print(zwierzeta['ssaki'])
 
-print(zwierzeta['ssaki'])
+#for key, value in zwierzeta.iteritems():
+#    print("{0}:{1}".format(key,value))
 
-for key, value in zwierzeta.iteritems():
-    print("{0}:{1}".format(key,value))
-
-for key in zwierzeta:
-    print("{0}:{1}".format(key, zwierzeta[key]))
+#for key in zwierzeta:
+#    print("{0}:{1}".format(key, zwierzeta[key]))
